@@ -1,0 +1,66 @@
+body {
+  font-family: "Open Sans", sans-serif; 
+}
+
+/* Seccion Hero */
+
+#Hero-Section {
+  background-image: url(https://cdn.pixabay.com/photo/2021/12/09/19/01/globe-6858907_1280.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(https://cdn.pixabay.com/photo/2021/12/09/19/01/globe-6858907_1280.jpg); /* Ajuste en la opacidad del gradiente */
+}
+
+
+/* Botones */
+
+.btn-outline-yellow {
+    border-color: #314988; 
+}
+
+.btn-outline-yellow:hover {
+  background-color: #26277a; 
+  color: white;
+}
+
+.btn-contacto {
+  background-color: #322d80; 
+  color: white;
+}
+
+/* proyectos */
+
+.bg-yellow {
+  background-color: #3e4572; 
+}
+
+#Mis-trabajos .image-top {
+  height: 250px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+/* contactame */
+
+#Contacto form label {
+  font-weight: 700;
+  color: #373a3c;
+}
+
+/* Form */
+
+.form-control:focus {
+  border-color: #333; 
+  box-shadow: 0 0 0 0.25rem #3a413a; 
+}
+
+
+#Hero-Section .container {
+  text-align: center; 
+}
+
+#Hero-Section h1, #Hero-Section p {
+  text-align: center; 
+}
